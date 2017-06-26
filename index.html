@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>		
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="css/my_css.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style type="text/css">
+		.carousel{
+		    background: #2f4357;
+		    margin-top: 20px;
+		    width: 702px;
+		}
+		.carousel .item{
+		    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+		}
+		.carousel .item img{
+		    margin: 0 auto; /* Align slide image horizontally center */
+		}
+		.bs-example{
+			margin: 20px;
+		}
+		</style>
+	</head>		
+	<body>
+
+		<nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+	        <!-- Brand and toggle get grouped for better mobile display -->
+	        <div class="container">
+	            <div class="navbar-header">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+	                <a class="navbar-brand logo" href="#">Tug-ani</a>	                
+	            </div>
+	            <!-- Collect the nav links, forms, and other content for toggling -->
+	            <div class="collapse navbar-collapse" id="navbarCollapse">
+	                <ul class="nav navbar-nav">
+	                    <li class="active"><a href="http://www.tutorialrepublic.com" target="_blank" class="menu-ops">Home</a></li>
+	                    <li><a href="#" target="_blank" class="menu-ops">About</a></li>
+	                    <li><a href="#" target="_blank" class="menu-ops">Staff</a></li>
+	                    <li><a href="#" target="_blank" class="menu-ops">Contact</a></li>
+	                    <li><a href="#" target="_blank" class="menu-ops">Join us!</a></li>
+	                </ul>
+	            </div>
+	        </div>
+	    </nav>
+	    <div class="container main-window">
+	    	<br /><br /><br />
+	    	<div class="row content">	    			    		
+	    		<div class="col-sm-2 content-sidebar">
+	    			<div class="sidebar-nav-fixed affix">	    				
+		    			<ul class="nav">
+		    				<h4><li>News</li></h4>
+		    				<h4><li>Feature</li></h4>
+		    				<h4><li>Opinion</li></h4>
+		    				<h4><li>Cartoon</li></h4>
+		    			</ul>	    				
+	    			</div>
+	    		</div>
+	    		<div class="clearfiix visible-sm-block"></div>
+	    		<div class="col-sm-10 main-content">		    		
+		    		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					    <!-- Carousel indicators -->
+					    <ol class="carousel-indicators">
+					        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					        <li data-target="#myCarousel" data-slide-to="1"></li>
+					        <li data-target="#myCarousel" data-slide-to="2"></li>
+					    </ol>   
+					    <!-- Wrapper for carousel items -->
+					    <div class="carousel-inner">
+					        <div class="item active">
+					            <img src="img/news-1.jpg" alt="News-1">
+					        </div>
+					        <div class="item">
+					            <img src="img/news-2.jpg" alt="News-2">
+					        </div>
+					        <div class="item">
+					            <img src="img/feature-1.jpg" alt="Feature-1">
+					        </div>
+					    </div>
+					    <!-- Carousel controls -->
+					    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+					        <span class="glyphicon glyphicon-chevron-left"></span>
+					    </a>
+					    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+					        <span class="glyphicon glyphicon-chevron-right"></span>
+					    </a>
+					</div>					
+					<br /><br /><br />		    	
+	    			<div class="col-sm-4 news-content">
+	    				<div class="news-preview">
+							<div class="thumbnail">
+				                <img src="img/1.jpg" alt="Sample Image">
+				                <div class="caption">
+				                    <h4>Headline 1</h4>
+				                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." <a href="#"><small>Read more</small> &raquo;</a></p>
+				                    <!-- <p><a href="#" class="btn btn-primary">Share</a> <a href="#" class="btn btn-default">Download</a></p> -->
+				                </div>
+				            </div>
+				            <div class="thumbnail">
+				                <img src="img/news-2.jpg" alt="Sample Image">
+				                <div class="caption">
+				                    <h4>Headline 3</h4>
+				                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." <a href="#"><small>Read more</small> &raquo;</a></p>
+				                    <!-- <p><a href="#" class="btn btn-primary">Share</a> <a href="#" class="btn btn-default">Download</a></p> -->
+				                </div>
+				            </div>
+	    				</div>	    				
+	    			</div>
+	    			<div class="col-sm-4 news-content">
+	    				<div class="news-preview">
+	    					<div class="thumbnail">
+	    						<img src="img/news-1.jpg" alt="Sample News">
+	    						<div class="caption">
+	    							<h4>Headline 2</h4>
+	    							<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." <a href="#"><small>Read more</small> &raquo;</a></p>	    						
+	    						</div>
+	    					</div>		
+	    					<div class="thumbnail">
+	    						<img src="img/news-4.jpg" alt="Sample News">
+	    						<div class="caption">
+	    							<h4>Headline 4</h4>
+	    							<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." <a href="#"><small>Read more</small> &raquo;</a></p>	    						
+	    						</div>
+	    					</div>		
+	    				</div>
+	    			</div>
+	    			<div class="col-sm-4 feature-content">
+	    				<div class="feature-preview">
+	    					<div class="thumbnail">
+	    						<img src="img/feature-1.jpg" alt="Feature-1">
+	    						<div class="caption">
+				    				<h4>FEATURE 1</h4>
+				    				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." <a href="#"><small>Read more</small> &raquo;</a></p>
+	    						</div>
+	    					</div>
+	    				</div>
+	    				<div class="feature-preview">
+	    					<div class="thumbnail">
+	    						<img src="img/feature-2.jpg" alt="Feature-2">
+	    						<div class="caption">
+	    							<h4>FEATURE 2</h4>
+		    						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." <a href="#"><small>Read more</small> &raquo;</a></p>	    					
+	    						</div>
+	    					</div>		    				
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>	    	
+	    </div>
+	</body>
+</html>
