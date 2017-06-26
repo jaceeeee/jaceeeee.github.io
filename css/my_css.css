@@ -1,0 +1,75 @@
+/*carousel*/
+.carousel {
+	height: 450px;
+	margin: 0 auto
+}
+.carousel-inner > .item > img {
+	height: 450px;	
+}
+.carousel-inner {
+	height: 450px;
+	background: black;
+}
+/*sidebar*/
+.sidebar {	
+	list-style: none;
+}
+.sidebar li:hover {		
+	text-decoration: underline;	
+}
+.sidebar li {
+	padding-bottom: 10px;
+}
+/*top navbar*/
+.logo {
+	background: url(../img/tug-ani.png) no-repeat;
+	text-indent: -9000px;
+	padding-right: 200px;	
+	position: relative;	
+	height: 70px;
+}
+#myNavbar {
+	height: 70px;
+}
+.active {
+	background: black;
+	height: 70px;
+}
+.menu-ops {
+	position: relative;
+	top: 10px;
+}
+.menu-ops:hover {
+	background: #C0C0C0;
+}
+/*sidebar navigation bar*/
+.content .content-sidebar {		
+	background: #d9d9d9;
+}
+.content-sidebar li {
+	padding-bottom: 15px;	
+	text-indent: 20px;
+	list-style: none;		
+}
+.content-sidebar li:hover {
+	text-decoration: underline;
+	color: grey;	
+}
+.main-window {
+	position: relative;
+	top: 10px;
+}
+.main-window ul {	
+	padding-top: 10px;
+}
+/*news content*/
+.main-content {	
+	background: grey;
+}
+.news-preview {	
+	padding-bottom: 50px;	
+}
+/* feature content */
+.feature-preview {	
+	padding-bottom: 50px;	
+}
