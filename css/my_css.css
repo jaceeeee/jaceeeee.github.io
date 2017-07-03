@@ -10,6 +10,7 @@
 	height: 450px;
 	background: black;
 }
+
 /*sidebar*/
 .sidebar {	
 	list-style: none;
@@ -41,6 +42,11 @@
 }
 .menu-ops:hover {
 	background: #C0C0C0;
+}
+.search-bar {
+	position: relative;
+	top: 10px;
+	left: 250px;
 }
 /*sidebar navigation bar*/
 .content .content-sidebar {		
