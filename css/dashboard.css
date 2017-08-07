@@ -59,15 +59,16 @@ body {
 .nav-sidebar > li > a {
   padding-right: 20px;
   margin-left: 40px;
+  color: #807474;
 }
 .nav-sidebar > .active > a,
 .nav-sidebar > .active > a:hover,
 .nav-sidebar > .active > a:focus {
   color: #fff;
-  background-color: #428bca;
+  background-color: #a2a2a2;
 }
 
-
+  
 /*
  * Main content
  */
@@ -103,4 +104,24 @@ body {
 .placeholder img {
   display: inline-block;
   border-radius: 50%;
+}
+
+/*
+ * Main Content
+ */
+
+.main-content {  
+  width: 1050px;
+}
+.main-content .col-sm-4 .news-preview {  
+  background-color: red;
+} 
+
+.feature-preview {
+  background-color: blue;
+  width: 330px;
+}
+
+h2 {
+  text-align: center;
 }
